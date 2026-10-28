@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Notice data and crawl state: never commit any of this
+raw/
+quarantine/
+.state/
+full_raw/
+test_raw/
+stratified_raw/
+full_state/
+test_state/
+stratify/full_raw/
+stratify/test_raw/
+stratify/stratified_raw/
+stratify/full_state/
+stratify/test_state/
+stratify/.state/
+*.jsonl
+*.sqlite3
+*checkpoint*.json
+*checkpoint*.json.bak
+full_metadata_scan.json
+
+# Lumen's own documentation (not ours to redistribute)
+*.pdf
